@@ -1,0 +1,53 @@
+body{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: beige;
+}
+
+.mainDiv{
+display: flex;
+width: 200px;
+min-height: 20rem;
+flex-direction: column;
+align-items: center;
+
+}
+.contents{
+  margin-bottom: 5px;
+  display: block;
+  outline: none;
+}
+.subm{
+  flex: 1;
+  cursor: pointer;
+}
+
+.subDiv{
+  text-align: left;
+  min-height: 5rem;
+  width: 150px;
+  margin: 5px;
+  display: block;
+  padding: 3px;
+  background-color: #f1e9dd;
+}
+.newContent{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  margin: 2px;
+  font-size: 18px;
+  border-radius: 4px;
+}
+.charBelow{
+  height: 1rem;
+  margin: 0;
+  background-color: #214ADC;
+}
+.overlimits {
+  color : red;
+}

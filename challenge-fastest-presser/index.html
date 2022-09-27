@@ -16,7 +16,42 @@
   </head>
 
   <body>
-    <div class="content"></div>
+   <div class="content">
+   <div class="container bckg">
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-sm-4" text center>
+        <input type="number" id="inputEl" class="form-control" width="200px">
+      </div>
+      <button class="btn btn-primary" id="btnStart">Start</button>
+      <div class="col-md-4"></div>
+    </div>
+    <div class="row"><h1 class="d-center" id="show">0</h1></div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="text-center bckf">
+          <h2>Player One</h2>
+          <p>Press "S" to win</p>
+          <p id="playerOneScore">Score: 0</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="text-center bckb">
+          <h2>Player One</h2>
+            <p>Press "L" to win</p>
+            <p id="playerTwoScore">Score: 0</p>
+        </div>
+      </div>
+    </div>
+    <div class="row style">
+      <div class="col"></div>
+      <div class="col">
+        <h1 id="wonText">you won</h1>
+      </div>
+      <div class="col"></div>
+    </div>
+   </div>
+    </div>
   </body>
 
   <script src="script.js"></script>
